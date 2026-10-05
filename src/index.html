@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#182b27" />
+    <meta name="description" content="ShipTrack delivery and shipment management demo." />
+    <title>ShipTrack — Delivery, in good hands</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <a class="brand" href="#overview" aria-label="ShipTrack home">
+          <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9.5 16 4l11 5.5v13L16 28 5 22.5v-13Z"/><path d="m5.5 9.8 10.5 5.4 10.5-5.4M16 15.5V28M10.5 6.8 22 12.7"/></svg></span>
+          <span class="brand-name">shiptrack<span>.</span><small>DELIVERY, IN GOOD HANDS</small></span>
+        </a>
+        <div class="workspace-label">WORKSPACE</div>
+        <nav id="primary-nav" class="nav-list"></nav>
+        <div class="sidebar-bottom">
+          <div class="demo-note"><span class="demo-spark">✳</span><div><strong>Demo workspace</strong><p>Data stays in this browser.</p></div></div>
+          <button class="sidebar-profile" id="profile-button" type="button"></button>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div class="breadcrumb"><span>Workspace</span><span class="crumb-separator">/</span><strong id="current-crumb">Overview</strong></div>
+          <div class="topbar-actions">
+            <label class="persona-picker"><span>Preview as</span><select id="persona-select" aria-label="Switch demo role"></select></label>
+            <button class="icon-button" id="help-button" type="button" aria-label="About this demo"><span>?</span></button>
+            <button class="top-user" id="top-user" type="button"></button>
+          </div>
+        </header>
+        <section id="page-content" class="page-content" aria-live="polite"></section>
+        <footer class="app-footer"><span>ShipTrack <span class="footer-dot">·</span> Built for the journey ahead</span><span><i class="status-dot"></i> Demo mode — browser storage only</span></footer>
+      </main>
+    </div>
+
+    <dialog id="app-dialog" class="app-dialog"><div id="dialog-content"></div></dialog>
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

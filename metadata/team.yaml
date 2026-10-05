@@ -4,16 +4,16 @@
 # - If your team has 4 members: provide all 4 members.
 
 team:
-  team_id: ""
-  name: ""
-  repository: "" # URL of the newly created GitHub repository for this project
+  team_id: "58"
+  name: "Nexus"
+  repository: "https://github.com/Goundla-Srinidhi/ShipTrack.git" # URL of the newly created GitHub repository for this project
 
 members:
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
+  - name: "Godha chandana"
+    email: "chandanagodha59@gmail.com"
+  - name: "Goundla Srinidhi"
+    email: "goudsrinidhi7@gmail.com"
+  - name: "Godishela Sruthi"
+    email: "godishalasruthi03@gmail.com"
+  - name: "Elluru varshini"
+    email: "ellurusrvarshini@gmail.com"
