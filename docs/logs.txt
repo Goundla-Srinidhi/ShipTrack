@@ -569,3 +569,25 @@ Actions Taken:
 * Confirmed current timestamp, branch main, and clean baseline before this turn's log update.
 * Asked for actual backend source/schema or explicit authorization to scaffold against the current demo.
 
+================================================================================
+[2026-10-06T10:36:19+05:30] Commit SHA follow-up — integration direction
+================================================================================
+User Prompt (verbatim):
+Continuation of the brief acknowledgment turn logged above; no additional user prompt.
+
+Agent Response:
+The clarification log entry is committed as 4971393c1129a268c4d2e2a0da2c52da5aef17bb. I am committing this follow-up and pushing the append-only log update to the configured team remote.
+
+Agent Response Summary:
+Recorded the log commit SHA in a new follow-up entry rather than rewriting prior records. No application code was changed because the required backend source or scaffold authorization has not been provided.
+
+Commit SHA:
+4971393c1129a268c4d2e2a0da2c52da5aef17bb
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Committed the clarification log as 4971393c1129a268c4d2e2a0da2c52da5aef17bb.
+* Appended the SHA follow-up; final commit and push follow.
+
