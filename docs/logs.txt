@@ -735,3 +735,25 @@ Actions Taken:
 * Ran `node --check src/app.js`, `git diff --check`, and workspace diagnostics successfully.
 * Did not push; awaiting explicit user approval.
 
+================================================================================
+[2026-10-06T12:25:39+05:30] Commit SHA follow-up — GitHub Pages setup
+================================================================================
+User Prompt (verbatim):
+Continuation of the GitHub Pages setup request logged above; no additional user prompt.
+
+Agent Response:
+The GitHub Pages workflow and overview anchor change are committed locally as ff81fc638da04fce6cfd28d01cef33ee7ca9538f. This SHA follow-up will also be committed locally. I have not pushed any changes; deployment waits for the user's approval.
+
+Agent Response Summary:
+Recorded the local deployment commit SHA in this append-only follow-up. The Pages setup remains local and unpushed in accordance with the explicit instruction.
+
+Commit SHA:
+ff81fc638da04fce6cfd28d01cef33ee7ca9538f
+
+Files Modified / Created:
+* docs/logs.txt (Modified)
+
+Actions Taken:
+* Committed the Pages workflow and anchor fix locally as ff81fc638da04fce6cfd28d01cef33ee7ca9538f.
+* Appended the SHA follow-up; did not push.
+
